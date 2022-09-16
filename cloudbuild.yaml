@@ -7,6 +7,6 @@ steps:
 images:
 - 'us-central1-docker.pkg.dev/$PROJECT_ID/priya-python-repo/python-image:v1'
 logsBucket: 'gs://priya-bucket-for-build-logs'
-## [END cloudbuild_quickstart_build]
-options:
- logging: CLOUD_LOGGING_ONLY
+# ## [END cloudbuild_quickstart_build]
+# options:
+#  logging: CLOUD_LOGGING_ONLY
