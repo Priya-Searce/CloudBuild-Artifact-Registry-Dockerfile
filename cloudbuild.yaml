@@ -8,7 +8,7 @@ steps:
 # push docker image
 
 images:
-- 'us-central1-docker.pkg.dev/$PROJECT_ID/priya-python-repo/python-image'
+- 'us-central1-docker.pkg.dev/$PROJECT_ID/priya-python-repo/python-image:v1'
 
 logsBucket: 'gs://priya-bucket-for-build-logs'
 
